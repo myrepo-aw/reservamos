@@ -6,10 +6,6 @@ body, html {
     background: linear-gradient(to bottom right, #8ed7eb, #77bd43);
 }
 
-#root{
-    height: 100%;
-}
-
 .searcher{
     &--logo{
      width: 100px;
@@ -45,9 +41,6 @@ body, html {
         }
     }
     &--days-container{
-        &--title{
-        
-        }
         &--text{
             padding: 20px;
             background-color: white;
@@ -55,4 +48,8 @@ body, html {
             border-radius: 15px;
         }
     }
+}
+
+#root{
+    height: 100%;
 }
