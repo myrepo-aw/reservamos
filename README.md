@@ -19,7 +19,7 @@ alexiswaldo98@icloud.com
 
 ## Mejoras y observaciones
 
-- Para desplegar el sitio localmente descargar el repositorio, ejecutar npm install para instalar las dependencias y posteriormente correr el localhost con npm start. Node v21.1.0. NPM 10.2.2.
+- Para desplegar el sitio localmente descargar el repositorio en la rama Master, ejecutar npm install para instalar las dependencias y posteriormente correr el localhost con npm start. Node v21.1.0. NPM 10.2.2.
 
 - El código quedó desordenado, hay bloques que se pueden hacer más compactos y lo ideal es separar las funciones en submódulos más pequenos, de forma que sea mantenible y escalable por cualquier otro desarrollador.
 
