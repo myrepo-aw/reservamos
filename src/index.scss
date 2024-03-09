@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #8ed7eb, #77bd43);
+}
+
+#root{
+    height: 100%;
+}
+
+.searcher{
+    &--logo{
+     width: 100px;
+     height: 100px;   
+    }
+    &--title{
+        color: rgb(50, 50, 50);
+    }
+    &--input-box{
+        width: 30%;
+
+        &--input,
+        &--submit{
+            height: 40px;
+            border-radius: 5px;
+            border: 2px;
+        }
+        &--submit{
+            margin-top: -3px;
+        }
+
+        &--list{
+            position: absolute;
+            z-index: 1;
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            
+            ul{
+                list-style: none;
+                cursor: pointer;
+            }
+        }
+    }
+    &--days-container{
+        &--title{
+        
+        }
+        &--text{
+            padding: 20px;
+            background-color: white;
+            font-size: 30px;
+            border-radius: 15px;
+        }
+    }
+}
